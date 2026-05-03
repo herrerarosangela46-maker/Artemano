@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(181, 181, 211);
+}
+aside{
+    text-align: right;
+    container:inherit;
+}
+
+header{
+    background-color: azure;
+}
+
+footer{
+    background-color: azure;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu li a:hover{
+    background-color: bisque;
+}

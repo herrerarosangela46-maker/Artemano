@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+font-family: sans-serif;
+
+}
+
+.container1111{
+    background-color: #cccc33;
+    border-radius: 0;
+    color: white;
+    font-size: 16px;
+    word-spacing: 15px;
+    font-weight: 700;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+
+ .imgr{
+    width: 100%;
+    height: 150px;
+    border-radius: 0px;
+ }
+
+.container4{
+    display: inline-block;
+    background-color: #D3C4E0;
+    width: 100%;
+    height: 400px;
+    border-radius: 0;
+}
+
+.contenido{
+    height: 400px;
+    width: 100%;
+    border-color: #D3C4E0;
+    border-top-color: #D3C4E0;
+    padding-left: 55px;
+    outline-color: #D3C4E0;
+ }
+.container5{
+    display: flex;
+    background-color: #ffffff;
+    
+    width: 100%;
+    height: 200PX;
+    border-radius: 0;
+}
+.imglogo3{
+width: 150px;
+height: 200px;
+
+}
+.container-eventos6{
+    background-color: #ff671b;
+    
+}
+
+
+
+
+
+.container9{
+    display: inline-block;
+    background-color: #f4c3bd;
+    width: 100%;
+    height: 40px;
+    border-radius: 0;
+    font-size: 14px;
+    color: #f74674;
+    font-weight: 700;
+    padding-top: 10px;
+    word-spacing: 19px;
+    text-align: center;
+}
+
+
+
+.container10-reels{
+    display: flex;
+    background-color: #FC7190;
+    width: 100%;
+    height: 400px;
+    border-radius: 0;
+}
+
+.inflex-container11{
+    flex:1;
+}
+.container11{
+    display: inline-block;
+    background-color: #f4c3bd;
+    width: 100%;
+    height: 100px;
+    border-radius: 0;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 30px;
+}
+.imga{
+    width: 100%;
+    height: 200px;
+
+}
+
+.container13{
+    display: inline-block;
+    background-color: #ffffff;
+    width: 100%;
+    height: 500px;
+    border-radius: 0;
+    margin-top: 0;
+    margin-left: 200px;
+    }
+    .imgart{
+        width: 100%;
+        height: 500px;
+        align-items: center;
+        margin-left: 300px;
+    }
+
+
+
+.container14{
+    display: inline-block;
+    background-color: #ff671b;
+    width: 100%;
+    height: 70px;
+    border-radius: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fdd700;
+    font-weight: 500;
+    font-size: 20px;
+    word-spacing: 25px;
+    padding-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .columnas-imagenes .columna {
+        flex: 1 1 45%; 
+    }
+}
+@media (max-width: 576px) {
+    .columnas-imagenes .columna {
+        flex: 1 1 100%; 
+        margin-top: 10px; 
+}
+}
+
+

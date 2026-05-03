@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logomenu {
+    width: 200px;
+    height: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    background-color: #cccc33;
+}
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px; /* Ajusta el margen superior según sea necesario */
+}
+
+.container {
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 20px;
+    padding: 20px;
+    background-color: #cccc33;
+    border-radius: 7px;
+    color: white;
+    text-align: center;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.encabezado {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:white;
+    margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+}
+
+.container .card {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container .informacion {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px; /* Ajusta el margen inferior según sea necesario */
+    margin-top: 50px;
+}
+
+.container .link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+   font-weight: 600;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+@media (max-width: 768px) {
+    .columnas-imagenes .columna {
+        flex: 1 1 45%; /* Cambia el tamaño de las columnas para dispositivos más pequeños */
+    }
+}
+@media (max-width: 576px) {
+    .columnas-imagenes .columna {
+        flex: 1 1 100%; /* Cambia el tamaño de las columnas para dispositivos móviles */
+        margin-top: 10px; /* Reduce el espacio entre columnas */
+}
+}
